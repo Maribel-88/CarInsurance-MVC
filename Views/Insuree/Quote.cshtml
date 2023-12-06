@@ -1,0 +1,9 @@
+﻿﻿@using CarInsurance.Models.VIewModels
+@model QuoteVm
+@using (Html.BeginForm("Quote", "Insuree"))
+{
+    <div class="card-body">
+        <h3>$@Model.Quote per month.</h3>
+        <p>We will be sure to send a copy of this quote to the email provided.</p>
+    </div>
+}
